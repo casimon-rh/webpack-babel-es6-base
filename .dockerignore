@@ -1,0 +1,6 @@
+dist
+.dockerignore
+Dockerfile
+rebuild.sh
+node_modules
+.git
