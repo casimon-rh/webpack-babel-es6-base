@@ -1,15 +1,14 @@
 {
   "plugins": ["prettier", "jquery"],
   "parserOptions": {
-    "ecmaFeatures": {
-      "experimentalObjectRestSpread": true
-    },
+    "ecmaVersion": 6,
     "sourceType": "module"
   },
   "env": {
     "browser": true,
     "amd": true,
     "node": true,
+    "es6": true,
     "jquery": true
   },
   "rules": {
@@ -22,6 +21,7 @@
     "no-negated-in-lhs": "off",
     "no-unused-vars": "off",
     "prettier/prettier": "error",
-    "no-labels":"off"
+    "no-labels":"off",
+    "prefer-arrow-callback": "error"
   }
 }
