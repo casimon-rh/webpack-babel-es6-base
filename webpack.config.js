@@ -1,7 +1,7 @@
 module.exports = [
   {
     context: __dirname,
-    entry: ['./js/widget.js', './js/index.js', './css/index.css'],
+    entry: ['./js/index.js', './css/index.css'],
     output: {
       filename: 'bundle.js'
     },
@@ -12,7 +12,7 @@ module.exports = [
           exclude: /node_modules/,
           loader: 'babel-loader',
           query: {
-            presets: ['es2015'],
+            presets: ['es2017'],
             plugins: ['transform-object-assign', 'transform-object-rest-spread']
           }
         },

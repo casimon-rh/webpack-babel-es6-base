@@ -3,5 +3,6 @@
     "activityBar.background": "#43270E",
     "titleBar.activeBackground": "#5D3613",
     "titleBar.activeForeground": "#FDFAF7"
-  }
+  },
+  "prettier.eslintIntegration": true
 }
